@@ -9,7 +9,7 @@
                     "HEAD"
                 ]
             },
-            "backendUri": "https://tourofheroes.z6.web.core.windows.net/index.html",
+            "backendUri": "https://YOURSTATICWEBSITE.z6.web.core.windows.net/index.html",
             "responseOverrides": {
                 "response.headers.Strict-Transport-Security": "max-age=31536000; includeSubDomains",
                 "response.headers.X-Content-Type-Options": "nosniff",
@@ -28,7 +28,7 @@
                     "HEAD"
                 ]
             },
-            "backendUri": "https://tourofheroes.z6.web.core.windows.net/{filename}.{ext}"
+            "backendUri": "https://YOURSTATICWEBSITE.z6.web.core.windows.net/{filename}.{ext}"
         },
         "routes": {
             "matchCondition": {
@@ -38,7 +38,7 @@
                     "HEAD"
                 ]
             },
-            "backendUri": "https://tourofheroes.z6.web.core.windows.net/index.html",
+            "backendUri": "https://YOURSTATICWEBSITE.z6.web.core.windows.net/index.html",
             "responseOverrides": {
                 "response.headers.Strict-Transport-Security": "max-age=31536000; includeSubDomains",
                 "response.headers.X-Content-Type-Options": "nosniff",
@@ -57,7 +57,7 @@
                     "HEAD"
                 ]
             },
-            "backendUri": "https://tourofheroes.z6.web.core.windows.net/assets/{file}"
+            "backendUri": "https://YOURSTATICWEBSITE.z6.web.core.windows.net/assets/{file}"
         }
     }
 }
